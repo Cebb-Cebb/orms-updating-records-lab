@@ -83,7 +83,8 @@ describe "Student" do
       expect(pat.name).to eq(row[1])
       expect(pat.grade).to eq(row[2])
     end
-  end
+  end  
+    
 
   describe '.find_by_name' do
     it 'returns an instance of student that matches the name from the DB' do
